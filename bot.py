@@ -84,7 +84,7 @@ async def uptime(ctx):
     usage=".invite",
 )
 async def invite(ctx):
-    await ctx.channel.send("https://discordapp.com/oauth2/authorize?client_id=593029590205726735&scope=bot&permissions=8")
-    
+    await ctx.channel.send("<https://discordapp.com/oauth2/authorize?client_id=593029590205726735&scope=bot&permissions=8>")
+
 
 bot.run(config.token)
