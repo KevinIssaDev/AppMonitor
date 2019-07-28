@@ -8,7 +8,7 @@ import asyncio
 import time
 import datetime
 
-#https://discordapp.com/oauth2/authorize?client_id=602567404127649792&scope=bot&permissions=8
+#https://discordapp.com/oauth2/authorize?client_id=593029590205726735&scope=bot&permissions=8
 
 
 class Bot(commands.Bot):
@@ -75,5 +75,15 @@ async def uptime(ctx):
     current_time = time.time()
     difference = int(round(current_time - bot.start_time))
     await ctx.channel.send(str(datetime.timedelta(seconds=difference)))
+
+
+@bot.command(
+    name="Invite",
+    aliases=['inv'],
+    description="A link for you to invite the bot to your server with!",
+    usage=".invite",
+)
+async def invite(ctx):
+    await ctx.channel.send("https://discordapp.com/oauth2/authorize?client_id=593029590205726735&scope=bot&permissions=8")
 
 bot.run(config.token)
