@@ -2,6 +2,8 @@
 
 ### A Discord bot for monitoring iOS AppStore applications. DM’s you when an application you’re monitoring has received an update!
 
+Invite to your server: https://discordapp.com/oauth2/authorize?client_id=593029590205726735&scope=bot&permissions=8
+
 ***
 
 #### TABLE OF CONTENTS (COMMANDS)
@@ -29,7 +31,7 @@ Usage: `.watch-list *<sort key> .. OR .. *outdated`
 Users can search the AppStore for applications. The country version of the AppStore may also be specified. A message with information about the first matching application will be sent. This information will contain the applications name, publisher, version, update date, price, rating, icon and bundle identifier. The search result can then be added directly to the users watch-list.
 
 Usage: `.search <string> *<country>`
-  
+
 ![](https://i.imgur.com/he7WLlC.png)
 
 ### ADD
@@ -79,8 +81,8 @@ Usage: `.source`
 
 
 ###### * OPTIONAL ARGUMENT
- 
 
-Available at https://kevinissa.dev/appmonitor.html. 
+
+Available at https://kevinissa.dev/appmonitor.html.
 
 ![gif](https://i.imgur.com/zagrBxu.gif)
