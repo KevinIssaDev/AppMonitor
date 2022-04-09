@@ -2,7 +2,7 @@
 
 ### A Discord bot for monitoring iOS AppStore applications. DM’s you when an application you’re monitoring has received an update!
 
-Invite to your server: https://discordapp.com/oauth2/authorize?client_id=593029590205726735&scope=bot&permissions=8
+Invite to your server: ~~https://discordapp.com/oauth2/authorize?client_id=593029590205726735&scope=bot&permissions=8~~
 
 ***
 
@@ -82,7 +82,5 @@ Usage: `.source`
 
 ###### * OPTIONAL ARGUMENT
 
-
-Available at https://kevinissa.dev/appmonitor.html.
 
 ![gif](https://i.imgur.com/zagrBxu.gif)
